@@ -1,0 +1,19 @@
+# Local environment files
+.env
+.env.*
+
+# Credentials and private keys
+*.pem
+*.key
+secrets.yaml
+secret.yaml
+
+# Kubernetes configuration
+kubeconfig
+kubeconfig.*
+.kube/
+
+# Local editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
